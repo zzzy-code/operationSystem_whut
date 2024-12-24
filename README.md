@@ -38,7 +38,3 @@ This experiment simulates disk scheduling algorithms to manage read/write reques
 2. Navigate to the corresponding experiment folder for code files.
 
 3. Run the Java programs using your preferred IDE or via command line.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
