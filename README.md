@@ -1,40 +1,42 @@
-# Operating System Experiments
+# 操作系统实验  
 
-This repository contains the implementation of two operating system experiments from the course at Wuhan University of Technology.
+## 实验 1：动态分区管理  
 
-## Experiment 1: Dynamic Partition Management
+### 1. 实验描述  
+本实验旨在模拟动态分区内存管理，主要实现以下功能：  
+- 根据进程的需求分配和释放内存  
+- 采用不同的分区分配策略  
+- 追踪内存使用情况，计算外部碎片  
 
-This experiment focuses on implementing dynamic partition memory management. The goal is to simulate the management of memory partitions, allocating and deallocating memory based on processes' requirements.
+### 2. 实验功能  
+- **动态分区分配与回收**  
+- **实现三种分区分配策略**：
+  - **首次适应（First-Fit）**  
+  - **最佳适应（Best-Fit）**  
+  - **最坏适应（Worst-Fit）**  
+- **内存使用跟踪**  
+  - 记录各进程的内存占用情况  
+  - 统计外部碎片情况  
 
-### Features:
-- Simulate dynamic partition allocation and deallocation.
-- Implement strategies like first-fit, best-fit, and worst-fit.
-- Track memory usage and fragmentation.
+---
 
-## Experiment 2: Disk Scheduling
+## 实验 2：磁盘调度  
 
-This experiment simulates disk scheduling algorithms to manage read/write requests to disk drives efficiently.
+### 1. 实验描述  
+本实验模拟磁盘调度算法，提高磁盘读写请求的调度效率，减少磁头移动时间。  
 
-### Features:
-- Implement disk scheduling algorithms:
-  - FCFS (First-Come, First-Served)
-  - SSTF (Shortest Seek Time First)
-  - SCAN (Elevator algorithm)
-- Simulate disk arm movement and evaluate algorithm performance.
+### 2. 实验功能  
+- **实现多种磁盘调度算法**：
+  - **先来先服务（FCFS - First-Come, First-Served）**  
+  - **最短寻道时间优先（SSTF - Shortest Seek Time First）**  
+  - **扫描算法（SCAN - 电梯算法）**  
+- **磁盘臂运动模拟**  
+  - 计算磁头移动路径  
+  - 评估不同调度算法的性能  
 
-## Files:
-- `operationSystem_1/`: Files related to Experiment 1.
-- `operationSystem_2/`: Files related to Experiment 2.
-- `.vscode/`: Configuration for Visual Studio Code editor.
-- `README.md`: Project documentation.
+---
+## 运行方式  
 
-## Getting Started
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/operation-system-experiments.git
-   ```
-
-2. Navigate to the corresponding experiment folder for code files.
-
-3. Run the Java programs using your preferred IDE or via command line.
+### 克隆仓库  
+git clone https://github.com/your-username/operation-system-experiments.git
+cd operation-system-experiments
