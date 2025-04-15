@@ -6,9 +6,8 @@
 
 ## 📂 实验目录  
 
-- [实验 1：动态分区管理]([实验-1动态分区管理](https://github.com/zzzy-code/operationSystem_whut/tree/main/operationSystem_1))  
-- [实验 2：磁盘调度](#实验-2磁盘调度)  
-- [运行方式](#运行方式)
+- [实验 1：动态分区管理](https://github.com/zzzy-code/operationSystem_whut/tree/main/operationSystem_1) 
+- [实验 2：磁盘调度](https://github.com/zzzy-code/operationSystem_whut/tree/main/operationSystem_2)  
 
 ---
 
